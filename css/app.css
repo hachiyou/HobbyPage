@@ -59,4 +59,45 @@ main {
   margin-bottom: 0.5em;
 }
 
+.biography ul {
+  font-size: 14px;
+}
+
 /*---------------------------------------------------*/
+
+header {
+  width: 100%;
+  flex-direction: column;
+}
+
+#header_name {
+  font-size: 4em;
+  border-bottom: 4px solid #ccc;
+  margin-bottom: 0.5em;
+  color: #ccc;
+}
+
+/*---------------------------------------------------*/
+
+#header_name {
+  text-align: center;
+  margin: 0;
+  padding-top: .5em;
+  padding-bottom: 0.5em;
+  text-transform: uppercase;
+  color: #ccc;
+}
+
+.menu {
+  margin: 0;
+  width: 100%;
+  justify-content: space-around;
+}
+
+a {
+	text-decoration: none;
+}
+a:link,
+a:visited {
+  color: blue;
+}
