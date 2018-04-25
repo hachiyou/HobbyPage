@@ -127,3 +127,54 @@ figure {
   margin-bottom: 1em;
   border-bottom: 1px dashed #ccc;
 }
+
+/*Taken from http://hackingui.com/front-end/a-pure-css-solution-for-multiline-text-truncation/ with modifications*/
+
+.caption,
+.caption * {
+  margin: 0;
+}
+
+.caption_title {
+  padding-left: 1em;
+  font-size: 1em;
+  line-height: 1.2em;
+  max-height: 2.4em;
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+  margin-top: 1em;
+  padding-right: 1em;
+}
+
+.caption_title:before {
+  /* points in the end */
+  content: '...';
+  /* absolute position */
+  position: absolute;
+  /* set position to right bottom corner of block */
+  right: 1.2em;
+  bottom: 0;
+  z-index: -1;
+}
+
+.caption_title:after {
+  /* points in the end */
+  content: '';
+  /* absolute position */
+  position: absolute;
+  /* set position to right bottom corner of text */
+  right: 1.2em;
+  width: 1em;
+  /* set width and height */
+  height: 1em;
+  margin-top: 0.2em;
+  background: #50A4A8;
+  z-index: -1;
+}
+
+.caption_source {
+  text-align: right;
+  padding: 0.5em;
+  margin: 0;
+}
