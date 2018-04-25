@@ -23,3 +23,40 @@ main {
   font-family: cursive;
   color: #012330;
 }
+
+/* SideBar */
+
+#sidebar {
+  order: 5;
+  border-top: 4px solid #ccc;
+}
+
+#sidebar div {
+  flex-direction: column;
+  margin-left: 1em;
+}
+
+#sidebar * {
+  margin: 0;
+}
+
+#owner_name {
+  text-align: center;
+  line-height: 4em;
+}
+
+#logo {
+  order: -2;
+  height: 100px;
+  width: 20%
+}
+
+#sidebar li {
+  margin-bottom: 0.5em;
+}
+
+#sidebar p {
+  margin-bottom: 0.5em;
+}
+
+/*---------------------------------------------------*/
