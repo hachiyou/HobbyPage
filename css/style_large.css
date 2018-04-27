@@ -52,3 +52,44 @@ main {
 .caption_title {
   margin-right: 0;
 }
+
+@media only screen and (min-width: 701px) and (max-width: 800px) {
+  #header_name {
+    width: 100%;
+    font-size: 3em;
+    border-bottom: 4px solid #ccc;
+    margin-bottom: 0.5em;
+    color: #ccc;
+  }
+}
+
+@media only screen and (min-width: 801px) {
+  #header_name {
+    font-size: 3em;
+    width: 210px;
+  }
+  .menu {
+    width: calc(100% - 210px);
+    align-items: flex-end;
+  }
+}
+
+@media only screen and (min-width: 961px) {
+  .menu_picture {
+    width: calc(50% - 8px);
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 1081px) {
+  .image_container figure {
+    width: calc( (100% - 32px) / 2);
+    max-width: 600px;
+  }
+}
+
+@media only screen and (min-width: 1301px) {
+  .menu_picture {
+    width: calc(100% / 4);
+  }
+}
