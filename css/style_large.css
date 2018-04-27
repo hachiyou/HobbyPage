@@ -93,3 +93,8 @@ main {
     width: calc(100% / 4);
   }
 }
+
+#goToTop {
+  bottom: 10px;
+  left: 20px;
+}
