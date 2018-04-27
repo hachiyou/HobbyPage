@@ -1,0 +1,54 @@
+/* Sidebar Properties */
+
+#sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding: 8px;
+  max-width: 250px;
+  border-right: 2px solid #ccc;
+}
+
+#sidebar,
+#sidebar div {
+  flex-direction: column;
+  padding: 8px;
+}
+
+.biography {
+  margin: 0;
+  padding: 0;
+}
+
+.biography p {
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 16px;
+}
+
+.biography ul {
+  margin-top: 0;
+}
+
+#sidebar_2 {
+  width: 100%;
+}
+
+#logo {
+  height: 100px;
+  width: auto;
+}
+
+#owner_name {
+  text-align: center;
+  margin: 0;
+}
+
+main {
+  margin-left: 250px;
+}
+
+.caption_title {
+  margin-right: 0;
+}
